@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>34603C65-96D5-4A96-812D-0CD0979DC23E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>34603C65-96D5-4A96-812D-0CD0979DC23E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611424178.61544597</real>
+			<key>timeStoppedRecording</key>
+			<real>611424181.93311</real>
+			<key>title</key>
+			<string>Build ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>34603C65-96D5-4A96-812D-0CD0979DC23E</string>
+		</dict>
+		<key>45E7735A-FEE5-4695-AE23-7DB4709571BE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>45E7735A-FEE5-4695-AE23-7DB4709571BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611423291.81233203</real>
+			<key>timeStoppedRecording</key>
+			<real>611423295.01988494</real>
+			<key>title</key>
+			<string>Build ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>45E7735A-FEE5-4695-AE23-7DB4709571BE</string>
+		</dict>
+		<key>4974C0D5-084A-4275-A621-885AAB87D513</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4974C0D5-084A-4275-A621-885AAB87D513.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reqApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build reqApp</string>
+			<key>timeStartedRecording</key>
+			<real>611425507.44271398</real>
+			<key>timeStoppedRecording</key>
+			<real>611425510.20363402</real>
+			<key>title</key>
+			<string>Build reqApp</string>
+			<key>uniqueIdentifier</key>
+			<string>4974C0D5-084A-4275-A621-885AAB87D513</string>
+		</dict>
+		<key>723ED45F-520C-460B-BA14-11A80EEB242F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>723ED45F-520C-460B-BA14-11A80EEB242F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611425522.09690702</real>
+			<key>timeStoppedRecording</key>
+			<real>611425522.26462495</real>
+			<key>title</key>
+			<string>Build ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>723ED45F-520C-460B-BA14-11A80EEB242F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

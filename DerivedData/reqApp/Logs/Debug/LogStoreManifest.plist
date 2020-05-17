@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0D72BEB5-948B-46FA-86C9-9623D8CF144E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0D72BEB5-948B-46FA-86C9-9623D8CF144E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MobileSafari.app</string>
+			<key>timeStartedRecording</key>
+			<real>611425522.27031004</real>
+			<key>timeStoppedRecording</key>
+			<real>611425570.59189498</real>
+			<key>title</key>
+			<string>Debug MobileSafari.app</string>
+			<key>uniqueIdentifier</key>
+			<string>0D72BEB5-948B-46FA-86C9-9623D8CF144E</string>
+		</dict>
+		<key>3E6972E9-5D67-417F-BA4C-4CDB140DF8F3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3E6972E9-5D67-417F-BA4C-4CDB140DF8F3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>reqApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug reqApp</string>
+			<key>timeStartedRecording</key>
+			<real>611425510.20645297</real>
+			<key>timeStoppedRecording</key>
+			<real>611425515.35036099</real>
+			<key>title</key>
+			<string>Debug reqApp</string>
+			<key>uniqueIdentifier</key>
+			<string>3E6972E9-5D67-417F-BA4C-4CDB140DF8F3</string>
+		</dict>
+		<key>4826ADA9-D9A1-4C7E-9D39-7ABF5D824BF1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4826ADA9-D9A1-4C7E-9D39-7ABF5D824BF1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611425556.840271</real>
+			<key>timeStoppedRecording</key>
+			<real>611425570.73350894</real>
+			<key>title</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>4826ADA9-D9A1-4C7E-9D39-7ABF5D824BF1</string>
+		</dict>
+		<key>5C85C6E1-0D30-4140-BAAB-75BE1BE37443</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5C85C6E1-0D30-4140-BAAB-75BE1BE37443.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MobileSafari.app</string>
+			<key>timeStartedRecording</key>
+			<real>611423295.02701604</real>
+			<key>timeStoppedRecording</key>
+			<real>611423400.77351797</real>
+			<key>title</key>
+			<string>Debug MobileSafari.app</string>
+			<key>uniqueIdentifier</key>
+			<string>5C85C6E1-0D30-4140-BAAB-75BE1BE37443</string>
+		</dict>
+		<key>CA1356FB-5152-4C84-8E59-6F05EF4BF5D2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CA1356FB-5152-4C84-8E59-6F05EF4BF5D2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>reqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ActionEx</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug MobileSafari.app</string>
+			<key>timeStartedRecording</key>
+			<real>611424181.93945396</real>
+			<key>timeStoppedRecording</key>
+			<real>611424314.37018895</real>
+			<key>title</key>
+			<string>Debug MobileSafari.app</string>
+			<key>uniqueIdentifier</key>
+			<string>CA1356FB-5152-4C84-8E59-6F05EF4BF5D2</string>
+		</dict>
+		<key>CC4976B5-2CC6-4A4D-8F25-62728EFAC764</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CC4976B5-2CC6-4A4D-8F25-62728EFAC764.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611424281.81207299</real>
+			<key>timeStoppedRecording</key>
+			<real>611424314.51590598</real>
+			<key>title</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>CC4976B5-2CC6-4A4D-8F25-62728EFAC764</string>
+		</dict>
+		<key>F3B77E52-0537-41ED-8190-44A421AE4B03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F3B77E52-0537-41ED-8190-44A421AE4B03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>timeStartedRecording</key>
+			<real>611423350.79372597</real>
+			<key>timeStoppedRecording</key>
+			<real>611423400.90966105</real>
+			<key>title</key>
+			<string>Debug JKU.reqApp.ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>F3B77E52-0537-41ED-8190-44A421AE4B03</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

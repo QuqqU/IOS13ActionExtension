@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>95EC0B78-77B7-4607-BF59-D7FEE343C64A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>95EC0B78-77B7-4607-BF59-D7FEE343C64A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>ActionEx-cyaggyzlchhtzofkitiawsxdbqkd</string>
+			<key>timeStartedRecording</key>
+			<real>611425507.66516697</real>
+			<key>timeStoppedRecording</key>
+			<real>611425509.18665302</real>
+			<key>title</key>
+			<string>Build target ActionEx</string>
+			<key>uniqueIdentifier</key>
+			<string>95EC0B78-77B7-4607-BF59-D7FEE343C64A</string>
+		</dict>
+		<key>E4FF3F08-9AFE-4799-90E5-B94EABEA744F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>E4FF3F08-9AFE-4799-90E5-B94EABEA744F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>reqApp-cyaggyzlchhtzofkitiawsxdbqkd</string>
+			<key>timeStartedRecording</key>
+			<real>611425509.13648498</real>
+			<key>timeStoppedRecording</key>
+			<real>611425510.19538605</real>
+			<key>title</key>
+			<string>Build target reqApp</string>
+			<key>uniqueIdentifier</key>
+			<string>E4FF3F08-9AFE-4799-90E5-B94EABEA744F</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
