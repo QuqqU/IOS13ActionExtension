@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>95EC0B78-77B7-4607-BF59-D7FEE343C64A</key>
+		<key>275ED97B-3C42-44C3-9C87-DB0B7B608570</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>95EC0B78-77B7-4607-BF59-D7FEE343C64A.xcactivitylog</string>
+			<string>275ED97B-3C42-44C3-9C87-DB0B7B608570.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>ActionEx-cyaggyzlchhtzofkitiawsxdbqkd</string>
 			<key>timeStartedRecording</key>
-			<real>611425507.66516697</real>
+			<real>611511641.23025298</real>
 			<key>timeStoppedRecording</key>
-			<real>611425509.18665302</real>
+			<real>611511642.52524495</real>
 			<key>title</key>
 			<string>Build target ActionEx</string>
 			<key>uniqueIdentifier</key>
-			<string>95EC0B78-77B7-4607-BF59-D7FEE343C64A</string>
+			<string>275ED97B-3C42-44C3-9C87-DB0B7B608570</string>
 		</dict>
-		<key>E4FF3F08-9AFE-4799-90E5-B94EABEA744F</key>
+		<key>7B1E00CB-D055-4BF1-964D-2ED873F05712</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>E4FF3F08-9AFE-4799-90E5-B94EABEA744F.xcactivitylog</string>
+			<string>7B1E00CB-D055-4BF1-964D-2ED873F05712.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>reqApp-cyaggyzlchhtzofkitiawsxdbqkd</string>
 			<key>timeStartedRecording</key>
-			<real>611425509.13648498</real>
+			<real>611511642.526196</real>
 			<key>timeStoppedRecording</key>
-			<real>611425510.19538605</real>
+			<real>611511642.53840303</real>
 			<key>title</key>
 			<string>Build target reqApp</string>
 			<key>uniqueIdentifier</key>
-			<string>E4FF3F08-9AFE-4799-90E5-B94EABEA744F</string>
+			<string>7B1E00CB-D055-4BF1-964D-2ED873F05712</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

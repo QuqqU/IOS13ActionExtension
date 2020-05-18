@@ -14,8 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let shareDefaults = UserDefaults(suiteName: "group.reqGroup")
-
-        shareDefaults!.set("testApp", forKey:"name")
+        var test = Dictionary<String, Bool>()
+        test["img"] = true
+        shareDefaults!.set(test, forKey:"setting")
+        
+        
+        print(test)
+        let sshareDefaults = UserDefaults(suiteName: "group.reqGroup")
+        guard let sharedInfo = sshareDefaults!.dictionary(forKey: "setting") as? Dictionary<String, Bool> else { return }
+        print(sharedInfo)
     }
 
     
