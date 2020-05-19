@@ -8,6 +8,7 @@
 
 import UIKit
 import MobileCoreServices
+import SwiftSoup
 
 class ActionViewController: UIViewController {
 
@@ -16,17 +17,21 @@ class ActionViewController: UIViewController {
     
     // Containing App의 설정 정보
     private var setInfo = Dictionary<String, Bool>()
-    private var HTMLSource = Data()
-    
-    
+    private var imageURLs = [String]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Containing App 에서 setInfo 을 받아온다.
         setInfo = getSetInfoFromContainingApp()
-        // Hosting App 에서 HTML 을 받아온다.
-        HTMLSource = getHTML()
+        
+        // 1. Hosting App 에서 HTML 을 받아온다.
+        // 2. <img src="---"> 을 파싱한다.
+        preprocessHTML()
+        
+        
+        
         
         //- ToDo
         /*
@@ -35,7 +40,13 @@ class ActionViewController: UIViewController {
          2. ActionViewController 에 parsing한 img 띄우기
          3. 골라서 사진 저장
          
+         4. action extension activation on only safari(browsers)
+         
+         - 비동기 끝날 때까지 activity indicator
          */
+        
+        
+        
         
     }
     
@@ -43,6 +54,7 @@ class ActionViewController: UIViewController {
     
     
     private func getSetInfoFromContainingApp() -> Dictionary<String, Bool> {
+        
         // containing app 과 데이터 공유하기
         let shareDefaults = UserDefaults(suiteName: "group.reqGroup")
         guard let sharedInfo = shareDefaults!.dictionary(forKey: "setting") as? Dictionary<String, Bool> else {
@@ -51,6 +63,7 @@ class ActionViewController: UIViewController {
         }
         
         print("[ getSetInfoFromContainingApp ] : Succeeded to get Set Info.")
+        print("-- Set Info --------------------------------------------")
         print(sharedInfo)
         print("--------------------------------------------------------")
         
@@ -58,9 +71,7 @@ class ActionViewController: UIViewController {
     }
     
     
-    private func getHTML() -> Data {
-        
-        var HTMLData = Data()
+    private func preprocessHTML() {
         
         // 모든 익스텐션 뷰 컨트롤러는 ExtensionContext 클래스의 인스턴스 형태로 연결된 익스텐션 콘텍스트를 갖는다.
         // 익스텐션 콘텍스트는 객체를 포함하고 있는 배열의 형태인 inputItems라는 이름의 속성을 가지고 있다.
@@ -71,8 +82,6 @@ class ActionViewController: UIViewController {
         // attachment 객체는 NSItemProvider 타입으로 캐스팅하여 호스트 앱의 데이터에 접근할 수 있다.
         let itemProvider = extensionItem.attachments![0]
         
-        
-        
         // Action Extension 이 지원하는 타입의 데이터를, 호스트 앱이 가지고 있는지 검증 (URL Type: kUTTypeURL or "public.url")
         if itemProvider.hasItemConformingToTypeIdentifier(kUTTypeURL as String) {
             
@@ -81,31 +90,48 @@ class ActionViewController: UIViewController {
                 
                 //NSSecureCoding 에서 사용가능한 타입(URL)으로 캐스팅한다.
                 guard let url: URL = url as? URL else {
-                    print("Error[ getHTML ] : \(error.debugDescription))")
+                    print("Error[ preprocessHTML ] : \(error.debugDescription))")
                     return
                 }
                 
                 do {
                     // 해당 URL에 HTML소스파일을 요청한다.
-                    HTMLData = try Data(contentsOf: url)
-
-                    print("[ getHTML ] : Succeeded")
+                    let HTML: String = try String(contentsOf: url)
                     
-                    /*
-                    // HTML 디버깅용
-                    let HTMLSourceAsString = String(decoding: HTMLData, as: UTF8.self)
-                    print(HTMLSourceAsString)
-                    */
+                    // <img src> 태그를 파싱한다.
+                    do {
+                        let doc: Document = try SwiftSoup.parse(HTML)
+                        let srcs: Elements = try doc.select("img[src]")
+                        self.imageURLs = srcs.array().map { try! $0.attr("src").description }
+                        
+                        DispatchQueue.main.async {   // <---- 이거 할 줄 몰라서 8시간 헤맴 / 이제 롤하러가야지
+                            
+                            //
+                            // 대충 데이터 tableview에 올리는 구간
+                            // 1. 테이블 뷰에 직접 넣거나
+                            // 2. or, imageURLs 프로퍼티에 넣고 reloadData하거나
+                            
+                            //self.myTextView.text += a
+                            
+                        }
+                        
+                    }
+                    catch Exception.Error(_, let message) {
+                        print(message)
+                    }
+                    catch {
+                        print("error")
+                    }
                 }
                 catch let error {
-                    print("Error[ getHTML ] : Request to get HTML file is denied.")
-                    print("Error/ \(error)")
+                    print("Error[ preprocessHTML ] : Request to get HTML file is denied.")
+                    print(error)
                     print("--------------------------------------------------------")
                 }
             }
         }
         
-        return HTMLData
+        
     }
     
     
