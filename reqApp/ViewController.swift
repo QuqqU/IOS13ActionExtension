@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftSoup
 
 class ViewController: UIViewController {
 
@@ -18,11 +19,18 @@ class ViewController: UIViewController {
         test["img"] = true
         shareDefaults!.set(test, forKey:"setting")
         
+        /*
         
         print(test)
         let sshareDefaults = UserDefaults(suiteName: "group.reqGroup")
         guard let sharedInfo = sshareDefaults!.dictionary(forKey: "setting") as? Dictionary<String, Bool> else { return }
         print(sharedInfo)
+ */
+        
+        
+        
+        
+        
     }
 
     
